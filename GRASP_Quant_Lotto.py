@@ -26,7 +26,7 @@ np.random.seed(SEED)
 
 
 # ================= LOAD CSV =================
-csv_path = "/Users/milan/Desktop/GHQ/data/loto7h_4532_k100.csv"
+csv_path = "/data/loto7h_4532_k100.csv"
 df = pd.read_csv(csv_path)
 
 NODES = list(range(1, 40))
@@ -161,7 +161,7 @@ print("Skor:", best_score)
 print()
 """
 PREDIKCIJA SLEDECE LOTO7 KOMBINACIJE (CSV ceo):
-(4, 7, 19, 24, 26, 34, 37)
+(4, 7, x, y, z, 34, 37)
 Skor: 0.9906696023064709
 """
 
@@ -260,7 +260,7 @@ print("Skor:", best_score_q)
 print()
 """
 PREDIKCIJA SLEDECE LOTO7 KOMBINACIJE (SA KVANTNIM SCORE-OM - DETERMINISTICKI):
-(4, 7, 19, 24, 26, 34, 37)
+(4, 7, x, y, z, 34, 37)
 Skor: 1.053169602306471
 """
 
