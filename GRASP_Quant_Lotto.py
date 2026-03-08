@@ -3,6 +3,9 @@
 # Dynamic Networks
 # Link Prediction
 
+# https://graphsinspace.net
+# https://tigraphs.pmf.uns.ac.rs
+
 
 """
 torch 2.8.0
