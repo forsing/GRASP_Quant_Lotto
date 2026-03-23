@@ -43,7 +43,7 @@ from qiskit.quantum_info import Statevector
 # ================= podrazumevano =================
 SEED = 39
 NODES = list(range(1, 40))
-_DEFAULT_CSV = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4584_k23.csv")
+_DEFAULT_CSV = Path("/data/loto7hh_4584_k23.csv")
 RF_TREES = 300
 TOP_EDGES_DEFAULT = 200
 N2V_DIM = 32
@@ -320,7 +320,7 @@ Computing transition probabilities: 100%|█| 39/39 [00:00<00:00
 Generating walks (CPU: 1): 100%|█| 50/50 [00:00<00:00, 905.37i
 
 PREDIKCIJA SLEDECE LOTO7 KOMBINACIJE (CSV ceo):
-(4, 7, 19, 24, 26, 34, 37)
+(4, x, 19, y, 26, z, 37)
 Skor: 0.9906696034174404
 
 Prvih 10 kombinovanih skorova (edge_score + q_score) - deterministicki:
@@ -336,7 +336,7 @@ Par (1, 10): 1.0793207439692196
 Par (1, 11): 1.0778930712531292
 
 PREDIKCIJA SLEDECE LOTO7 KOMBINACIJE (SA KVANTNIM SCORE-OM - DETERMINISTICKI):
-(4, 7, 19, 24, 26, 34, 37)
+(4, x, 19, y, 26, z, 37)
 Skor: 1.0531696034174405
 """
 
